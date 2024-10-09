@@ -1,0 +1,166 @@
+/*******Corpo*******/
+#Corpo, #Corpo1, #Corpo2, #Corpo3 
+		{background-color: #0D0D0D;
+		width: 100%;}
+
+#All {}
+
+#Every {width: 100%;
+	  float: right;}	  		
+
+
+.cor {color: white;}
+/******Parte de cima******/
+.Superior {background-color: whitesmoke;
+		   width: 100%;
+		   height:100%;
+		   }
+
+
+.Nome {float: right;
+	   color: whitesmoke;
+	   border: 2px solid red;
+	   text-align: center;
+	   width: 100px;}
+
+.Logo {color: white;
+	   width: 130px;
+	   height: 40px;
+	   margin-top: 0px;
+	   margin-bottom: 20px;
+	   margin-left: 50px; }		   
+
+.Navegacao {color: black;}	   
+
+.Suporte {background-color: #E6E6FA ;
+		  border: 1px solid #B0C4DE;
+		  border-radius: 10px;
+		  margin-top: 3px}
+.Supo {line-height: 30px;}		  
+
+
+/***********Barra de navegacao*******/
+
+ul.Navegacao {list-style: none;
+			  margin: 0;
+			  padding: 0;
+			  margin-top: 11px;
+			  margin-left: 15px;}
+
+ul.Navegacao li{}
+
+ul.Navegacao a {text-decoration: none;
+				font-size: 20px;
+				color: whitesmoke;}
+
+.padding {padding-bottom: 10px; 
+		  padding-right: 20px}
+
+#Home .home a,
+#Corpo1 .sobre-nos a,
+#Corpo2  .servicos a,
+#Corpo3 .contato a			   
+			   {color:white;
+			   border: 1px inset #000080;
+			   border-radius: 7px;
+			   padding: 3px;
+			   margin-left: 5px;
+			   padding-left: 10px;
+			   padding-right: 10px;
+			   background: #0000FF; }
+
+.Container {
+			padding-bottom: 0px;
+			padding-top: 0px;
+			background-color: whitesmoke;
+			
+			width: 100%;
+			height: 100%;border-bottom: 2px solid gray;}
+
+
+.Procurar {width: 300px}		
+
+/********Textos********/
+
+.Texto {color: white; 
+		font-size: 17px; 
+		margin-left: 9px;
+		margin-right: 9px;}
+
+
+/*******Links formatacao*******/
+
+
+.Lupa {color: black;}
+a.Lupa:visited {}
+a.Lupa:hover {color: #0000FF;}
+
+ul.Navegacao a:link {color:black;
+					 padding: 3px;
+					 padding-left: 0px;
+					 background-color:whitesmoke;
+					 padding-left: 10px;
+			  		 padding-right: 10px;} 
+
+ul.Navegacao a:visited {color:#747565;}
+
+ul.Navegacao a:hover {color:white;
+					  border: 1px solid gray;
+					  border-radius: 7px;
+					  padding: 3px;
+					  padding-left: 0px;
+					  background-color:#6495ED;
+					  transition: color 0.9s, 
+					  border-radius 0.2s,
+					  padding 0.2s,
+					  background-color 0.5s,
+					  border 9s;
+					  padding-left: 10px;
+			  	      padding-right: 10px;}
+
+ul.Navegacao a:active {color:green;
+					   border: 1px solid gray;
+					   border-radius: 7px;
+					   background-color:#A1A1A1 }
+
+
+
+
+
+
+
+
+
+
+
+
+/********************Barra de pesquisa**********/
+
+/*
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+*/
+
+
+/**************/
+ .navbar-lupa{  padding: 0px;
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 0;
+  color: var(--bs-navbar-color);
+  background-color: transparent;
+  border: 0px;
+  border-radius: 0px;
+  transition: var(--bs-navbar-toggler-transition);
+
+
+
+/******** Area de Conteudo*******/  
+.Cartone {width: 300px; height: 200px; border: 1px solid red;}
+.Cs {width: 96%}

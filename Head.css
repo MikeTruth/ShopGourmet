@@ -1,0 +1,230 @@
+/****Corpos*****/
+
+#Home, #Sobre, #Categorias 
+{background-color: #dbdbdc}
+
+/**** Parte de cima *****/
+.Superior {
+		   background-color: whitesmoke;
+		   height: 100%}
+
+
+.Logo {inl; border: 1px red solid;}
+
+.aborder {height: 100%}
+
+.Cs {width: 96%;}
+
+.Cartone {width: 552px; 
+	height: 500px;
+ border: 1px solid red;}
+
+.ft {width: 40px; border: 1px red solid}
+
+.color {}
+
+.cor-pesquisa {background-color:#F8F8FF}
+
+.line-height {line-height: 40px}
+
+.a {display: flex;
+ justify-content: center;
+  margin-top: 30px; display: flex;}
+
+.b {text-align:center;  }
+
+.c {border-radius: 5px}
+
+.d {border: 2px solid gray; 
+	background-color:#c9c9e0; 
+	border-radius:5px;
+	margin-bottom:5px; }
+
+.e {color: black; background-color: #dadaeb;
+border: dimgray solid 1px;
+border-radius: 10px;
+padding: 3px;
+padding-bottom: 2px;
+padding-top: 2px;
+float: left;}	
+
+.f {color: black; 
+	text-shadow: -1px 0px gray; 
+	font-size: 20px}
+
+.g {text-decoration: underline;}	
+
+.h {background-color: black;}
+
+.m {--bs-btn-padding-x: 0.75rem;
+  --bs-btn-padding-y: 0.375rem;
+  --bs-btn-font-family: ;
+  color: black;
+  --bs-btn-font-size: 0.9rem;
+  --bs-btn-font-weight: 400;
+  --bs-btn-line-height: 1.5;
+  --bs-btn-color: var(--bs-body-color);
+  --bs-btn-bg: transparent;
+  --bs-btn-border-width: var(--bs-border-width);
+  --bs-btn-border-color: transparent;
+  --bs-btn-border-radius: var(--bs-border-radius);
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  --bs-btn-disabled-opacity: 0.65;
+  --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+  display: inline-block;
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  font-family: var(--bs-btn-font-family);
+  font-size: 12.5px;
+  font-weight: var(--bs-btn-font-weight);
+  line-height: var(--bs-btn-line-height);
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: 1px solid #0000FF;
+  border-radius: var(--bs-btn-border-radius);
+  background-color: #0000FF;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.i {border-radius: 5px; margin: 0px; 
+ color: whitesmoke;
+ background: linear-gradient( white, gray);
+border-top:none;}
+
+.j {float: right; border: 1px solid white;
+padding: 3px; color: whitesmoke;}
+
+.n {color: black;}
+
+.k {margin-top: 0; padding: 0}
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.carousel-indicators {background-color: gray}
+
+.container-fluida{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin: 0px;
+    padding: 0px;
+    grid-template-rows: 2fr 96fr 2fr;
+    grid-template-areas: "h h h"
+                         "a m m"
+                         "f f f"
+                     }
+
+/****Leia mais e leia menos***/
+
+section.pagamento {
+	display: flex;
+	max-width: 1100px;
+	padding: 0 2%;
+	margin:90px auto ;
+	justify-content: space-around;
+
+}
+#home32 {padding: 20px;}
+
+.form-pagamento {width: 50%;
+padding: 10px 30px}
+
+.form-pagamento form{
+	display: flex;
+	flex-wrap:wrap ;
+}
+.form-100 { width:100%; }
+
+.form-50 { width:50%; display:flex; }
+
+
+
+.row2 {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.pix {border: 1px gray solid;}
+
+.container2 {
+  background-color: #f2f2f2;
+  padding: 10px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+padding: 50px;
+}
+
+body#PAPA input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+
+
+
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row2 {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
